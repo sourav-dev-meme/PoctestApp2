@@ -1,0 +1,64 @@
+page-welcome {
+    .toolbar-title-md{
+        color:rgba(255, 255, 255, 0.92);
+    }
+    .scroll-content{
+        background: url('../assets/images/back.jpg');
+      
+        margin-top: 0 !important;
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+    }
+    ion-navbar.toolbar.toolbar-md {
+        background: transparent;
+    }
+    .toolbar-background-md {
+        border-color: transparent;
+        background: transparent;
+    }
+    .header-md::after{
+        background-image: none;
+    }
+    .textsec{
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .textsec p{
+        color: rgba(255, 255, 255, 0.85);
+        font-size: 38px;
+        margin: 5px;
+    }
+    .textsec span{
+        color: rgba(255, 255, 255, 0.85);
+        font-size: 34px;
+        font-weight: bold;
+    
+    }
+    .containersec{
+        text-align: center;
+        display: table;
+        margin: 0 auto;
+        width: 100%;
+        height:100%
+    }
+    ion-icon.back-button-icon.icon.icon-md.back-button-icon-md.ion-md-arrow-back {
+        color: white;
+    }
+    .footer-md::before{
+        background-image: none;
+    }
+    ion-footer.footer.footer-md {
+        margin-bottom: -4px;
+    }
+    .back-button.show-back-button {
+        display: inline-block;
+        background: #ff8d6a;
+        border-radius: 50%;
+        height: 41px;
+        width: 38px;
+    }
+}
